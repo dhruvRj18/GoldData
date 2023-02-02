@@ -1,0 +1,4 @@
+openpyxl
+mongoengine
+requests
+Flask

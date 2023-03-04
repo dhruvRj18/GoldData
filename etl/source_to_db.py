@@ -4,7 +4,7 @@ from Schema import TimeSeries
 
 
 def process_data():
-    workbook = load_workbook("gold-data.XLSX")
+    workbook = load_workbook("../gold-data.XLSX")
     sheet = workbook.active
     dates = []
     values = []

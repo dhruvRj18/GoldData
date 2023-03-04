@@ -8,7 +8,7 @@ log = logging.getLogger(__name__)
 
 def get_data() -> List[time_series]:
     try:
-        return time_series.objects()
+        return time_series.objects().order_by('date')
     except Exception as e:
         log.error(e)
         return None
